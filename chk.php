@@ -1,3 +1,3 @@
 <?php
-echo $_SERVER[‘DOCUMENT_ROOT’];
+echo realpath("./css/3inc_custom.css");
 ?>

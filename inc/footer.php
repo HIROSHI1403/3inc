@@ -1,3 +1,5 @@
+<?php require_once('/var/www/html/3inc-stage1/inc/config.php'); ?>
+
 <footer id="footer">
       <div class="container">
             <div class="col-md-3 col-sm-6 col-xs-12">

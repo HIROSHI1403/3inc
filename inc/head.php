@@ -1,16 +1,18 @@
+<?php require_once('/var/www/html/3inc-stage1/inc/config.php'); ?>
+
 <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-      <title>株式会社トリニティ｜Trinity Inc.</title>
-      <!-- Bootstrap -->
-      <link href="./css/3inc_base.css" rel="stylesheet">
-      <link href="./css/animate.css" rel="stylesheet">
-      <link href="./css/hover-min.css" rel="stylesheet">
-      <link href="./css/yamm.css" rel="stylesheet">
+      <title><?php echo $metas['title']; ?></title>
+
+      <meta name="description" content="<?php echo $metas[discription]; ?>">
+      <link href="<?php echo SRV_ROOT; ?>/css/3inc_base.css" rel="stylesheet">
+      <link href="<?php echo SRV_ROOT; ?>/css/animate.css" rel="stylesheet">
+      <link href="<?php echo SRV_ROOT; ?>/css/hover-min.cs ?>" rel="stylesheet">
+      <link href="<?php echo SRV_ROOT; ?>/css/yamm.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/ba25513b23.js"></script>
-      <link href="./css/3inc_custom.css" rel="stylesheet">
+      <link href="<?php echo SRV_ROOT; ?>/css/3inc_custom.css" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
       <!--[if lt IE 9]>

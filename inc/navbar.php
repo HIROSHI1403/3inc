@@ -1,3 +1,5 @@
+<?php require_once('/var/www/html/3inc-stage1/inc/config.php'); ?>
+
 <nav class="navbar navbar-default yamm">
       <div class="container-fluid">
             <div class="navbar-header">
@@ -7,7 +9,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="#"><img src="./img/logo/logo.svg" alt="株式会社トリニティ｜Trinity Icn." class="img-responsive"></a>
+                  <a class="navbar-brand" href="#"><img src="<?php echo SRV_ROOT; ?>/img/logo/logo.svg" alt="株式会社トリニティ｜Trinity Inc." class="img-responsive"></a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
