@@ -1,6 +1,6 @@
 <?php require_once('/var/www/html/3inc-stage1/inc/config.php'); ?>
 
-<nav class="navbar navbar-default yamm">
+<nav class="navbar navbar-default navbar-fixed-top yamm">
       <div class="container-fluid">
             <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -11,10 +11,11 @@
                   </button>
                   <a class="navbar-brand" href="#"><img src="<?php echo SRV_ROOT; ?>/img/logo/logo.svg" alt="株式会社トリニティ｜Trinity Inc." class="img-responsive"></a>
             </div>
+            <p class="navbar-text c-iij hidden-sm hidden-xs">Make customer a royal customer.</p>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#" class="hvr-underline-reveal">CONCEPT</a></li>
-                        <li class="dropdown yamm-fw">
+                        <li><a href="#" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0s">CONCEPT</a></li>
+                        <li class="dropdown yamm-fw  wow fadeIn" data-wow-delay="0.1s">
                               <a href="javascript:void(0);" ontouchstart="" class="dropdown-toggle hvr-underline-reveal" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">SOLUTION <span class="caret"></span></a>
                               <ul class="dropdown-menu dropdown-menu-nav">
                                     <div class="container">
@@ -90,7 +91,7 @@
                               </ul>
                         </li>
 
-                        <li class="dropdown yamm-fw">
+                        <li class="dropdown yamm-fw wow fadeIn" data-wow-delay="0.2s">
                               <a href="javascript:void(0);" ontouchstart="" class="dropdown-toggle hvr-underline-reveal" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COMPANY <span class="caret"></span></a>
                               <ul class="dropdown-menu dropdown-menu-nav">
                                     <div class="container">
@@ -195,9 +196,8 @@
                                     </div>
                               </ul>
                         </li>
-                        <li><a href="#" class="hvr-underline-reveal">COMPANY</a></li>
-                        <li><a href="#" class="hvr-underline-reveal">EXAMPLE</a></li>
-                        <li><a href="#" class="hvr-underline-reveal">CONTACT</a></li>
+                        <li><a href="#" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0.3s">WORK</a></li>
+                        <li><a href="#" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0.4s">CONTACT</a></li>
                   </ul>
             </div>
       </div>

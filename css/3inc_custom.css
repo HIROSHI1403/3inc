@@ -80,7 +80,7 @@ a>.col-sm-10{
 
 .btn-info{
     color: #ffffff;
-    background-color: #3e3f3a;
+    background-color: #cc0033 !important;
     border-color: transparent !important;
 }
 
@@ -149,12 +149,34 @@ a>.col-sm-10{
 	margin-top: 150px;
 }
 
+@media screen and (min-width: 768px){
+	.top-title {
+	    font-size: 72px;
+	}
+}
+
+.margin-top-50{
+	margin-top: 50px;
+}
+
+.margin-top-100{
+	margin-top: 100px;
+}
+
+.margin-top-200{
+	margin-top: 200px;
+}
 
 /* ---------------------------------
 	img
 ---------------------------------- */
 
 .topsimg{
+	-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
+}
+
+.hoverimg{
 	-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
 	box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
 }
@@ -171,7 +193,7 @@ a>.col-sm-10{
 
 	.topsimg{
 		position: relative;
-	    top: -146px;
+	    top: -260px;
 	    z-index: -99;
 		-webkit-box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
 		box-shadow: 0 8px 8px 0 rgba(0,0,0,.1);
@@ -230,4 +252,18 @@ a>.col-sm-10{
 
 .c-3inc-sub{
 	color:#0c6fb2 !important;
+}
+
+
+
+/* ---------------------------------
+	jumbotron-toprec
+---------------------------------- */
+
+.jumbotron-toprec{
+	background: url(../img/photos/toprec.jpg) no-repeat center bottom;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
