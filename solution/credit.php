@@ -141,7 +141,7 @@
 							<tr>
 								<th>カードの種類</th>
 								<td>
-									<ul>
+									<ul class="list-unstyled">
 										<li>クレジットカード　〔磁気カード/ICカード〕</li>
 										<li>ケータイクレジット「iD（アイディ）」対応携帯電話</li>
 									</ul>
@@ -152,7 +152,110 @@
 					</table>
 				</div>
 
-				<h3 class="c-3inc margin-top-200">業務系機能一覧</h3>
+				<h3 class="c-3inc margin-top-200">機能</h3>
+				<div class="row">
+					<div class="col-md-6">
+						<span class="label label-success">パッケージ型</span>
+						<p>INFOX端末で決済されたデータを、INFOX-NETよりダウンロードし、下記管理を可能にします。</p>
+						<ul class="list-unstyled">
+							<li>クレジット、iDデータの取込機能</li>
+							<li>クレジット、iD取込エラー確認</li>
+							<li>クレジットデータ入力、検索機能</li>
+							<li>クレジット２重取引チェック表</li>
+							<li>クレジット取引台帳（店舗別/会社別）</li>
+							<li>クレジット取引集計表（店舗別/会社別）</li>
+							<li>クレジット入金予定明細票（店舗別/会社別）</li>
+							<li>店舗設定機能</li>
+							<li>クレジット会社マスタ設定機能</li>
+							<li>クレジット入金条件マスタ設定機能</li>
+							<li>その他</li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<span class="label label-primary">ASP型</span>
+						<p>当社データセンターにてクレジット決済データをASPセンターで管理し、下記機能を可能にします。</p>
+						<ul class="list-unstyled">
+							<li>クレジット２重取引チェック表</li>
+							<li>クレジット売上集計表（店舗別、クレジット会社別）</li>
+							<li>クレジット売上明細表（店舗別、クレジット会社別C</li>
+							<li>クレジットデータ入力、検索機能</li>
+							<li>クレジット入金予定表（店舗別、クレジット会社別）</li>
+							<li>クレジット入金予定明細表</li>
+							<li>店舗マスタ、端末マスタ設定機能</li>
+							<li>クレジット会社マスタ設定機能</li>
+							<li>クレジット入金条件マスタ設定機能</li>
+							<li>クレジットデータ取込エラー確認、再取込機能</li>
+							<li>パスワード変更</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<h3 class="c-3inc margin-top-200">必要環境<br><small><span class="label label-success">パッケージ型</span></small></h3>
+				<div class="row">
+					<div class="col-md-3">
+						<h4 class="margin-top-50 c-3inc">周辺環境（ソフトウエア）</h4>
+						<h4 class="c-3inc-sub margin-top-50">データベースソフト</h4>
+						<p>
+							Microsoft Access 2003
+						</p>
+						<p><small class="text-muted">※Microsoft Windowsは、Microsoft Corporationの米国およびその他の国における登録商標または商標です。</small></p>
+
+						<h4 class="c-3inc-sub margin-top-50">INFOX-NET通信ソフト</h4>
+						<p>
+							全銀協TCP/IP手順通信ソフト
+						</p>
+
+						<h4 class="c-3inc-sub margin-top-50">リモートメンテナンスソフト</h4>
+						<p>
+							PC-Anywhere <（株）シマンテック社製 >
+						</p>
+					</div>
+
+					<div class="col-md-3">
+						<h4 class="margin-top-50 c-3inc">周辺環境（専用PC）</h4>
+						<h4 class="c-3inc-sub margin-top-50">OS</h4>
+						<p>
+							Windows 2000 Professional SP4 / Windows XP Professional SP2
+						</p>
+
+						<h4 class="c-3inc-sub margin-top-50">メインメモリ</h4>
+						<p>
+							256MB以上（512MB以上を推奨）
+						</p>
+
+						<h4 class="c-3inc-sub margin-top-50">ハードディスク</h4>
+						<p>
+							20GB以上の空き容量が必要
+						</p>
+					</div>
+
+					<div class="col-md-3">
+						<h4 class="margin-top-50 c-3inc">周辺環境（周辺装置）</h4>
+						<h4 class="c-3inc-sub margin-top-50">ディスプレイ</h4>
+						<p>
+							解像度 1,024×768（16ビット）以上の表示が可能なディスプレイ
+						</p>
+
+						<h4 class="c-3inc-sub margin-top-50">プリンタ</h4>
+						<p>
+							Windows環境で動作するプリンタ
+						</p>
+
+						<h4 class="c-3inc-sub margin-top-50">ルーター</h4>
+						<p>
+							指定機器あり（リモートメンテナンスと全銀協TCP/IP手順通信のソフトが使用します）
+						</p>
+					</div>
+
+					<div class="col-md-3">
+						<h4 class="margin-top-50 c-3inc">周辺環境（通信回線）</h4>
+						<h4 class="c-3inc-sub margin-top-50">ISDN回線</h4>
+						<p>
+							INFOX端末、INFOX-NET、リモートメンテナンス用が必要になります
+						</p>
+					</div>
+				</div>
 
 			</div>
 		</section>

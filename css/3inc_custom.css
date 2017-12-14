@@ -19,6 +19,13 @@ body{
 }
 
 /* ---------------------------------
+	font-size
+---------------------------------- */
+.font-xs{
+	font-size: 70%;
+}
+
+/* ---------------------------------
 	section
 ---------------------------------- */
 
@@ -252,6 +259,11 @@ a>.col-sm-10{
 
 .c-3inc-sub{
 	color:#0c6fb2 !important;
+}
+
+.btn-iij{
+	background: #cc0033 !important;
+	color: white !important;
 }
 
 

@@ -12,6 +12,8 @@
       <link href="<?php echo SRV_ROOT; ?>/css/hover-min.cs ?>" rel="stylesheet">
       <link href="<?php echo SRV_ROOT; ?>/css/yamm.css" rel="stylesheet">
       <script src="https://use.fontawesome.com/ba25513b23.js"></script>
+      <link href="<?php echo SRV_ROOT; ?>/css/slick.css" rel="stylesheet">
+      <link href="<?php echo SRV_ROOT; ?>/css/slick-theme.css" rel="stylesheet">
       <link href="<?php echo SRV_ROOT; ?>/css/3inc_custom.css" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

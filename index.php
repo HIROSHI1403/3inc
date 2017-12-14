@@ -25,7 +25,7 @@
 	                                    <p class="lead">お客さまの商品やサービの価値を、<br>ITを使って消費者に分かりやすく伝えることで、<br>お客さまや消費者の価値を高め、成功と繁栄をもたらします。</p>
 	                              </div>
 	                              <div class="col-md-5 wow fadeInRight" data-wow-duration="0.6s" data-wow-delay="0.8s">
-	                                    <img src="./img/photos/top2.jpg" alt="" class="img-responsive topsimg">
+	                                    <img src="./img/photos/top2-1.jpg" alt="" class="img-responsive topsimg">
 	                              </div>
 	                        </div>
 	                  </section>
@@ -34,128 +34,93 @@
 
 	            <section id="solution">
                         <div class="container-fluid">
-                              <h1 class="c-3inc text-center"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;SOLUTIONS<br><small>ソリューションズ</small></h1>
+                              <h1 class="c-3inc text-center"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;SOLUTION<br><small>ソリューション</small></h1>
                               <div class="row">
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/dev.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">SERVICE PLATFORM<br><small>サービスプラットフォーム</small></h4>
+                                                            <h4><span class="gradation1">SERVICE PLATFORM</span><br><small>パッケージ化クラウドサービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/poketta.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">POKETTA<br><small>ポケッタ</small></h4>
+                                                            <h4><span class="gradation1">POKETTA</span><br><small>ポイント利用のトータル販促サービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/tcos.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">TCOS-INFOX<br><small>インフォックス</small></h4>
+                                                            <h4><span class="gradation1">TCOS-INFOX</span><br><small>大型商業施設向け会員管理サービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/vps.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">SERVICE PLATFORM<br><small>サービスプラットフォーム</small></h4>
+                                                            <h4><span class="gradation1">VPS</span><br><small>カード決済データの管理を簡単に</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                                          <a href="http://www.3incxtpoint.jp/" target="_blank" class="noline" ontouchstart="">
+                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/tpoint.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">POKETTA<br><small>ポケッタ</small></h4>
+                                                            <h4><span class="gradation1">Tポイント</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                          <a href="https://www.iij.ad.jp/biz/pos/" target="_blank" class="noline" ontouchstart="">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/IIJGIOPOS.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">TCOS-INFOX<br><small>インフォックス</small></h4>
+                                                            <h4><span class="gradation1">IIJ JIO POS</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                          <a href="http://www.toshibatec.co.jp/products/reginavi.html" target="_blank" class="noline" ontouchstart="">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/regi-navi.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4 class="gradation1">SERVICE PLATFORM<br><small>サービスプラットフォーム</small></h4>
+                                                            <h4><span class="gradation1">レジナビ</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
-                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
-                                                      <div class="panel-body">
-                                                            <img src="http://placehold.jp/450x200.png" class="img-responsive center-block">
-                                                            <div class="well well-sm well-2lines">
-                                                                  <small>サンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプルサンプル</small>
-                                                            </div>
-                                                      </div>
-                                                      <div class="panel-footer">
-                                                            <h4 class="gradation1">POKETTA<br><small>ポケッタ</small></h4>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
+
                               </div>
                         </div>
                   </section>
@@ -176,7 +141,7 @@
                               <div class="row">
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
                                                             <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
@@ -189,7 +154,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
                                                             <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
@@ -202,7 +167,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
                                                             <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
@@ -215,7 +180,7 @@
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
                                                             <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
@@ -240,7 +205,7 @@
                               <div class="row">
                                     <div class="col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <div class="row">
                                                                   <div class="col-sm-4">
@@ -259,7 +224,7 @@
                                     </div>
                                     <div class="col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <div class="col-sm-4">
                                                                         <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
@@ -276,7 +241,7 @@
                                     </div>
                                     <div class="col-xs-12 hvr-float">
                                           <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                                <div class="panel panel-default phover wow fadeInUp">
                                                       <div class="panel-body">
                                                             <div class="col-sm-4">
                                                                         <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
