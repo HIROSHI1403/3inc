@@ -279,7 +279,7 @@
                         </li>
                         <li><a href="<?php echo SRV_ROOT; ?>/work/work.php" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0.3s">WORK</a></li>
                         <li><a href="<?php echo SRV_ROOT; ?>/recruit/recruit_top.php" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0.4s">RECRUIT</a></li>
-                        <li><a href="#" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.5s">CONTACT</a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.5s">CONTACT/ENTRY</a></li>
                   </ul>
             </div>
       </div>

@@ -91,7 +91,9 @@
 						</tr>
 						<tr>
 							<th class="c-3inc">エントリー</th>
-							<td></td>
+							<td>
+								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.1s">ENTRY</a>
+							</td>
 						</tr>
 					</tbody>
 				</table>
@@ -161,7 +163,9 @@
 						</tr>
 						<tr>
 							<th class="c-3inc">エントリー</th>
-							<td></td>
+							<td>
+								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.1s">ENTRY</a>
+							</td>
 						</tr>
 					</tbody>
 				</table>

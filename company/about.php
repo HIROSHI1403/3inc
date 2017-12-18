@@ -59,7 +59,7 @@
 										<td>肥後銀行</td>
 									</tr>
 
-									<tr>
+									<!-- <tr>
 										<th class="c-3inc-sub">主要取引先</th>
 										<td>
 											<ul class="list-unstyled">
@@ -90,7 +90,7 @@
 												<li class="text-muted">(五十音順 敬称略)</li>
 											</ul>
 										</td>
-									</tr>
+									</tr> -->
 
 									<tr>
 										<th class="c-3inc-sub">関連会社</th>

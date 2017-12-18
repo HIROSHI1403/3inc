@@ -4,6 +4,8 @@
 <script src="<?php echo SRV_ROOT; ?>/js/3inc_base.js"></script>
 <script src="<?php echo SRV_ROOT; ?>/js/wow.min.js"></script>
 <script src="<?php echo SRV_ROOT; ?>/js/slick.min.js"></script>
+<script src="<?php echo SRV_ROOT; ?>/js/smoke.min.js"></script>
+<script src="<?php echo SRV_ROOT; ?>/js/ja.js"></script>
 <script>
       new WOW().init();
 </script>
