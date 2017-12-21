@@ -279,3 +279,11 @@ a>.col-sm-10{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 }
+
+/* ---------------------------------
+	Menu Flex
+---------------------------------- */
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}

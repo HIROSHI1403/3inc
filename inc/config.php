@@ -7,7 +7,7 @@ define('FB','');
 define('TT','');
 define('','');
 
-
+require_once('/var/www/html/3inc-stage1/3incwp/wp-load.php');
 
 function titles($meta_title,$meta_description){
 	return array('title' => $meta_title,'discription' => $meta_description);

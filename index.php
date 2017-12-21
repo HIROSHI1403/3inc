@@ -196,6 +196,56 @@
                                           <a href="javascript:void(0);" title="ニュースをもっと見る" class="btn btn-info hvr-float">すべてのニュース</a>
                                     </div>
                               </div>
+                              <div class="row">
+                                    <?php
+                                          $args = array(
+                                                'post_type' => 'post',
+                                                'post_per_page' => 4,
+                                                'category_name' => 'news-ac'
+                                          );
+                                          $st_query = new WP_Query( $args );
+                                    ?>
+                                    <?php if ( $st_query->have_posts() ): ?>
+                                          <?php while ( $st_query->have_posts() ) : $st_query->the_post(); ?>
+                                                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
+                                                      <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                                            <div class="panel panel-default phover wow fadeInUp">
+                                                                  <div class="panel-body">
+                                                                        <?php
+                                                                              // if(mb_strlen(the_content(), 'UTF-8')>20){
+                                                                              //       $wpcontent = mb_substr(the_content(), 0, 20, 'UTF-8');
+                                                                              //       $wpcontent = $wpcontent.'...';
+                                                                              // }else{
+                                                                              //       $wpcontent = the_content();
+                                                                              // }
+
+                                                                              // if(mb_strlen(the_title(), 'UTF-8')>20){
+                                                                              //       $wptitle = mb_substr(the_title(), 0, 20, 'UTF-8');
+                                                                              //       $wptitle = $wptitle.'...';
+                                                                              // }else{
+                                                                              //       $wptitle = the_title();
+                                                                              // }
+
+                                                                              // $wpcontent = the_content();
+                                                                              // $wptitle = the_title();
+
+                                                                              $wpcontent = wp_strip_all_tags( $wpcontent );
+                                                                              $wpcontent = remove_shortcode( $wpcontent );
+                                                                              $wptitle = wp_strip_all_tags( $wptitle );
+                                                                              $wptitle = remove_shortcode( $wptitle );
+                                                                        ?>
+                                                                        <h5 class="gradation2">NEWS CATEGORY<br><small><?php the_time('yyyy/mm/dd'); ?></small></h5>
+                                                                        <img src="<?php the_post_thumbnail_url(); ?>" class="img-responsive center-block">
+                                                                        <h4><?php echo $wptitle; ?></h4>
+                                                                        <p><?php echo $wpcontent; ?></p>
+                                                                  </div>
+                                                            </div>
+                                                      </a>
+                                                </div>
+                                          <?php endwhile; ?>
+                                    <?php else: ?>
+                                    <?php endif; ?>
+                              </div>
                         </div>
                   </section>
 
@@ -214,8 +264,7 @@
                                                                   <div class="col-sm-8">
                                                                         <h5>NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
                                                                         <h4>〇〇株式会社様</h4>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                                        tempor</p>
+                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
                                                                   </div>
                                                             </div>
                                                       </div>

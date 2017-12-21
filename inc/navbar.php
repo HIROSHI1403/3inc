@@ -11,7 +11,7 @@
                   </button>
                   <a class="navbar-brand" href="<?php echo SRV_ROOT; ?>"><img src="<?php echo SRV_ROOT; ?>/img/logo/logo.svg" alt="株式会社トリニティ｜Trinity Inc." class="img-responsive"></a>
             </div>
-            <p class="navbar-text c-3inc hidden-sm hidden-xs wow fadeInRight">Make customer a royal customer.</p>
+            <p class="navbar-text c-3inc hidden-md wow fadeInRight">Make customer a royal customer.</p>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                         <li><a href="<?php echo SRV_ROOT; ?>/concept/concept.php" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0s">CONCEPT</a></li>
@@ -22,7 +22,25 @@
                                           <div class="page-header">
                                                 <h3 class="wow fadeInLeft" data-wow-duration="0.5s">SOLUTION</h3>
                                           </div>
-                                          <div class="row">
+                                          <div class="row flex">
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
+                                                      <a href="<?php echo SRV_ROOT; ?>/solution/solutionlist.php" class="noline" ontouchstart="">
+                                                            <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
+                                                                  <div class="panel-body" style="padding: 0px;">
+                                                                        <div class="row">
+                                                                              <div class="col-xs-4"">
+                                                                                    <img src="<?php echo SRV_ROOT; ?>/img/solution/solution.png" class="img-responsive center-block">
+                                                                              </div>
+                                                                              <div class="col-xs-8">
+                                                                                    <h5 class="text-left c-iij" style="margin:0px;">SOLUTION LIST</h5>
+                                                                                    <p style="margin:0px;"><small class="font-xs">当社ソリューション一覧</small></p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </a>
+                                                </div>
+
                                                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
                                                       <a href="<?php echo SRV_ROOT; ?>/solution/dev.php" class="noline" ontouchstart="">
                                                             <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
