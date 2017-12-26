@@ -4,14 +4,20 @@
       <div class="container-fluid">
             <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                   </button>
+                  <!-- <button class="hamburger navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="hamburger-box">
+                              <span class="hamburger-inner"></span>
+                        </span>
+                  </button> -->
                   <a class="navbar-brand" href="<?php echo SRV_ROOT; ?>"><img src="<?php echo SRV_ROOT; ?>/img/logo/logo.svg" alt="株式会社トリニティ｜Trinity Inc." class="img-responsive"></a>
             </div>
-            <p class="navbar-text c-3inc hidden-md wow fadeInRight">Make customer a royal customer.</p>
+            <p class="navbar-text c-3inc hidden-md hidden-sm hidden-xs wow fadeInRight">Make customer a royal customer.</p>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
                         <li><a href="<?php echo SRV_ROOT; ?>/concept/concept.php" class="hvr-underline-reveal wow fadeIn" data-wow-delay="0s">CONCEPT</a></li>
@@ -50,8 +56,8 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/dev.jpg" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">サービスプラットフォーム</h5>
-                                                                                    <p style="margin:0px;"><small class="font-xs">パッケージ化クラウドサービス</small></p>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">ソリューション開発</h5>
+                                                                                    <p style="margin:0px;"><small class="font-xs">ソリューション開発サービス</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -68,7 +74,7 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/poketta.jpg" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">POKETTA</h5>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">POKETTAサービス</h5>
                                                                                     <p style="margin:0px;"><small class="font-xs">ポイント利用のトータル販促サービス</small></p>
                                                                               </div>
                                                                         </div>
@@ -86,7 +92,7 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/vps.jpg" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">VPS</h5>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">VPSサービス</h5>
                                                                                     <p style="margin:0px;"><small class="font-xs">大型商業施設向け会員管理サービス</small></p>
                                                                               </div>
                                                                         </div>
@@ -104,7 +110,7 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/tcos.jpg" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">TCOS-INFOX</h5>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">TCOSサービス</h5>
                                                                                     <p style="margin:0px;"><small class="font-xs">カード決済端末を使ったポイントサービス</small></p>
                                                                               </div>
                                                                         </div>
@@ -113,7 +119,7 @@
                                                       </a>
                                                 </div>
 
-                                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
+                                                <!-- <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
                                                       <a href="<?php echo SRV_ROOT; ?>/solution/credit.php" class="noline" ontouchstart="">
                                                             <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
                                                                   <div class="panel-body" style="padding: 0px;">
@@ -129,9 +135,9 @@
                                                                   </div>
                                                             </div>
                                                       </a>
-                                                </div>
+                                                </div> -->
                                           </div>
-                                          <div class="row">
+                                          <div class="row flex">
                                                 <div class="col-md-12 wow fadeInUp" data-wow-duration="0.5s">
                                                       <p class="lead"><span class="label label-danger">ALLIANCE</span></small></p>
                                                 </div>
@@ -144,7 +150,7 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/tpoint.png" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">Ｔポイント</h5>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">Ｔポイントサービス</h5>
                                                                                     <p style="margin:0px;"><small class="font-xs"><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></p>
                                                                               </div>
                                                                         </div>
@@ -162,7 +168,7 @@
                                                                                     <img src="<?php echo SRV_ROOT; ?>/img/solution/square/IIJGIOPOS.png" class="img-responsive center-block">
                                                                               </div>
                                                                               <div class="col-xs-8">
-                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">IIJ JIO POS</h5>
+                                                                                    <h5 class="text-left c-3inc" style="margin:0px;">IIJ GIO POS</h5>
                                                                                     <p style="margin:0px;"><small class="font-xs"><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></p>
                                                                               </div>
                                                                         </div>
@@ -200,7 +206,7 @@
                                           <div class="page-header">
                                                 <h3 class="wow fadeInLeft" data-wow-duration="0.5s">COMPANY</h3>
                                           </div>
-                                          <div class="row">
+                                          <div class="row flex">
                                                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
                                                       <a href="<?php echo SRV_ROOT; ?>/company/about.php" class="noline" ontouchstart="">
                                                             <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
@@ -211,7 +217,7 @@
                                                                               </div>
                                                                               <div class="col-xs-8">
                                                                                     <h5 class="text-left c-3inc">ABOUT</h5>
-                                                                                    <p style="margin: 0px"><small class="font-xs">会社概要</small></p>
+                                                                                    <p style="margin: 0px"><small class="font-xs">会社プロフィール</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -229,7 +235,7 @@
                                                                               </div>
                                                                               <div class="col-xs-8">
                                                                                     <h5 class="text-left c-3inc">MESSAGE</h5>
-                                                                                    <p style="margin: 0px"><small class="font-xs">社長挨拶</small></p>
+                                                                                    <p style="margin: 0px"><small class="font-xs">トップメッセージ</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -247,7 +253,7 @@
                                                                               </div>
                                                                               <div class="col-xs-8">
                                                                                     <h5 class="text-left c-3inc">PHILOSOPHY</h5>
-                                                                                    <p style="margin: 0px"><small class="font-xs">企業理念</small></p>
+                                                                                    <p style="margin: 0px"><small class="font-xs">企業ポリシー</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>
@@ -265,15 +271,14 @@
                                                                               </div>
                                                                               <div class="col-xs-8">
                                                                                     <h5 class="text-left c-3inc">HISTORY</h5>
-                                                                                    <p style="margin: 0px"><small class="font-xs">会社沿革</small></p>
+                                                                                    <p style="margin: 0px"><small class="font-xs">ヒストリー</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>
                                                             </div>
                                                       </a>
                                                 </div>
-                                          </div>
-                                          <div class="row">
+
                                                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
                                                       <a href="<?php echo SRV_ROOT; ?>/company/base.php" class="noline" ontouchstart="">
                                                             <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
@@ -284,7 +289,25 @@
                                                                               </div>
                                                                               <div class="col-xs-8">
                                                                                     <h5 class="text-left c-3inc">BASE</h5>
-                                                                                     <p style="margin: 0px"><small class="font-xs">事業拠点</small></p>
+                                                                                     <p style="margin: 0px"><small class="font-xs">事業拠点（アクセスマップ）</small></p>
+                                                                              </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                      </a>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 hvr-float">
+                                                      <a href="<?php echo SRV_ROOT; ?>/news.php" class="noline" ontouchstart="">
+                                                            <div class="panel panel-default phover wow fadeInUp" data-wow-duration="0.5s">
+                                                                  <div class="panel-body" style="padding: 0px;">
+                                                                        <div class="row">
+                                                                              <div class="col-xs-4">
+                                                                                    <img src="<?php echo SRV_ROOT; ?>/img/solution/square/news.png" class="img-responsive center-block">
+                                                                              </div>
+                                                                              <div class="col-xs-8">
+                                                                                    <h5 class="text-left c-3inc">NEWS</h5>
+                                                                                     <p style="margin: 0px"><small class="font-xs">お知らせ・トピック</small></p>
                                                                               </div>
                                                                         </div>
                                                                   </div>

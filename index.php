@@ -10,7 +10,7 @@
 
 		<main>
 			<header id="header" class="">
-	                  <section class="container-fluid">
+	                 <!--  <section class="container-fluid">
 	                        <div class="row">
 	                              <div class="col-md-10 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
 	                                    <h1><img src="<?php echo SRV_ROOT; ?>/img/logo/trinity_catch2.svg" alt="EASY INFOMATION AND VALUE AND HUMAN CONNECTION." class="img-responsive"></h1>
@@ -28,7 +28,14 @@
 	                                    <img src="./img/photos/top2-1.jpg" alt="" class="img-responsive topsimg">
 	                              </div>
 	                        </div>
-	                  </section>
+	                  </section> -->
+
+                        <section class="">
+                              <h1>
+                                    <img src="<?php echo SRV_ROOT; ?>/img/top.png" alt="株式会社トリニティ" class="img-responsive center-block hidden-xs">
+                                    <img src="<?php echo SRV_ROOT; ?>/img/topsp.jpg" alt="株式会社トリニティ" class="img-responsive center-block hidden-lg hidden-md hidden-sm">
+                              </h1>
+                        </section>
 	            </header>
 
 
@@ -37,49 +44,49 @@
                               <h1 class="c-3inc text-center"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;SOLUTION<br><small>ソリューション</small></h1>
                               <div class="row">
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                          <a href="<?php echo SRV_ROOT; ?>/solution/dev.php" class="noline" ontouchstart="">
                                                 <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/dev.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">SERVICE PLATFORM</span><br><small>パッケージ化クラウドサービス</small></h4>
+                                                            <h4><span class="gradation1">ソリューション開発</span><br><small>パッケージ化クラウドサービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                          <a href="<?php echo SRV_ROOT; ?>/solution/poketta.php" class="noline" ontouchstart="">
                                                 <div class="panel panel-default phover text-center wow fadeInUp" data-wow-delay="0.2s">
                                                       <div class="panel-body">
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/poketta.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">POKETTA</span><br><small>ポイント利用のトータル販促サービス</small></h4>
+                                                            <h4><span class="gradation1">POKETTAサービス</span><br><small>ポイント利用のトータル販促サービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                          <a href="<?php echo SRV_ROOT; ?>/solution/tcos.php" class="noline" ontouchstart="">
                                                 <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/tcos.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">TCOS-INFOX</span><br><small>大型商業施設向け会員管理サービス</small></h4>
+                                                            <h4><span class="gradation1">TCOSサービス</span><br><small>大型商業施設向け会員管理サービス</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
                                     </div>
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                          <a href="<?php echo SRV_ROOT; ?>/solution/vps.php" class="noline" ontouchstart="">
                                                 <div class="panel panel-default phover text-center wow fadeInUp">
                                                       <div class="panel-body">
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/vps.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">VPS</span><br><small>カード決済データの管理を簡単に</small></h4>
+                                                            <h4><span class="gradation1">VPSサービス</span><br><small>カード決済データの管理を簡単に</small></h4>
                                                       </div>
                                                 </div>
                                           </a>
@@ -91,7 +98,7 @@
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/tpoint.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">Tポイント</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
+                                                            <h4><span class="gradation1">Tポイントサービス</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
@@ -103,7 +110,7 @@
                                                             <img src="<?php echo SRV_ROOT; ?>/img/solution/top/IIJGIOPOS.jpg" class="img-responsive center-block">
                                                       </div>
                                                       <div class="panel-footer">
-                                                            <h4><span class="gradation1">IIJ JIO POS</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
+                                                            <h4><span class="gradation1">IIJ GIO POS</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
@@ -116,6 +123,20 @@
                                                       </div>
                                                       <div class="panel-footer">
                                                             <h4><span class="gradation1">レジナビ</span><br><small><span class="label label-danger">ALLIANCE</span>&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></small></h4>
+                                                      </div>
+                                                </div>
+                                          </a>
+                                    </div>
+
+
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hvr-float">
+                                          <a href="<?php echo SRV_ROOT; ?>/solution/solutionlist.php" target="_blank" class="noline" ontouchstart="">
+                                                <div class="panel panel-default phover text-center wow fadeInUp">
+                                                      <div class="panel-body">
+                                                            <img src="<?php echo SRV_ROOT; ?>/img/solution/top/more.png" class="img-responsive center-block">
+                                                      </div>
+                                                      <div class="panel-footer">
+                                                            <h4><span class="c-iij">すべてのソリューション</span><br><small><i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></small></h4>
                                                       </div>
                                                 </div>
                                           </a>
@@ -139,105 +160,38 @@
                         <div class="container">
                               <h1 class="c-3inc text-center"><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;NEWS<br><small>ニュース</small></h1>
                               <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                            <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                            <h4>NEWS TITLE</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                            tempor</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                            <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                            <h4>NEWS TITLE</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                            tempor</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                            <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                            <h4>NEWS TITLE</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                            tempor</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <h5 class="gradation2">NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                            <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                            <h4>NEWS TITLE</h4>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                            tempor</p>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-
-                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-                                          <a href="javascript:void(0);" title="ニュースをもっと見る" class="btn btn-info hvr-float">すべてのニュース</a>
-                                    </div>
-                              </div>
-                              <div class="row">
                                     <?php
                                           $args = array(
                                                 'post_type' => 'post',
-                                                'post_per_page' => 4,
-                                                'category_name' => 'news-ac'
+                                                'posts_per_page' => 4,
+                                                'category_name' => 'news'
                                           );
                                           $st_query = new WP_Query( $args );
                                     ?>
                                     <?php if ( $st_query->have_posts() ): ?>
                                           <?php while ( $st_query->have_posts() ) : $st_query->the_post(); ?>
                                                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 hvr-float">
-                                                      <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                                      <a href="<?php echo SRV_ROOT; ?>/newspage.php?pageid=<?php the_ID(); ?>" class="noline" ontouchstart="">
                                                             <div class="panel panel-default phover wow fadeInUp">
                                                                   <div class="panel-body">
                                                                         <?php
-                                                                              // if(mb_strlen(the_content(), 'UTF-8')>20){
-                                                                              //       $wpcontent = mb_substr(the_content(), 0, 20, 'UTF-8');
-                                                                              //       $wpcontent = $wpcontent.'...';
-                                                                              // }else{
-                                                                              //       $wpcontent = the_content();
-                                                                              // }
+                                                                              $wptitle = get_the_title();
+                                                                              $wpcategory = get_the_category();
 
-                                                                              // if(mb_strlen(the_title(), 'UTF-8')>20){
-                                                                              //       $wptitle = mb_substr(the_title(), 0, 20, 'UTF-8');
-                                                                              //       $wptitle = $wptitle.'...';
-                                                                              // }else{
-                                                                              //       $wptitle = the_title();
-                                                                              // }
+                                                                              if(mb_strlen($wptitle, 'UTF-8')>30){
+                                                                                    $wptitle = mb_substr($wptitle, 0, 30, 'UTF-8');
+                                                                                    $wptitle = $wptitle.'...';
+                                                                              }else{
+                                                                                    $wptitle = $wptitle;
+                                                                              }
 
-                                                                              // $wpcontent = the_content();
-                                                                              // $wptitle = the_title();
-
-                                                                              $wpcontent = wp_strip_all_tags( $wpcontent );
-                                                                              $wpcontent = remove_shortcode( $wpcontent );
-                                                                              $wptitle = wp_strip_all_tags( $wptitle );
-                                                                              $wptitle = remove_shortcode( $wptitle );
+                                                                              foreach ($wpcategory as $tmp) {
+                                                                                    if($tmp->parent) $wpcat = $tmp->cat_name;
+                                                                              }
                                                                         ?>
-                                                                        <h5 class="gradation2">NEWS CATEGORY<br><small><?php the_time('yyyy/mm/dd'); ?></small></h5>
+                                                                        <h5 class="gradation2"><?php echo $wpcat; ?><br><small><?php the_time('Y/m/d'); ?></small></h5>
                                                                         <img src="<?php the_post_thumbnail_url(); ?>" class="img-responsive center-block">
-                                                                        <h4><?php echo $wptitle; ?></h4>
-                                                                        <p><?php echo $wpcontent; ?></p>
+                                                                        <h6><?php echo $wptitle; ?></h6>
                                                                   </div>
                                                             </div>
                                                       </a>
@@ -245,6 +199,10 @@
                                           <?php endwhile; ?>
                                     <?php else: ?>
                                     <?php endif; ?>
+                                    <?php wp_reset_query(); ?>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                          <a href="./news.php" title="ニュースをもっと見る" class="btn btn-info hvr-float">すべてのニュース</a>
+                                    </div>
                               </div>
                         </div>
                   </section>
@@ -253,60 +211,69 @@
                         <div class="container">
                               <h1 class="c-3inc text-center "><i class="fa fa-rocket" aria-hidden="true"></i>&nbsp;WORK<br><small>最新事例</small></h1>
                               <div class="row">
-                                    <div class="col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <div class="row">
-                                                                  <div class="col-sm-4">
-                                                                        <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                                  </div>
-                                                                  <div class="col-sm-8">
-                                                                        <h5>NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                                        <h4>〇〇株式会社様</h4>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                                    <?php
+                                          $args = array(
+                                                'post_type' => 'post',
+                                                'posts_per_page' => 3,
+                                                'category_name' => 'work'
+                                          );
+                                          $st_query = new WP_Query( $args );
+                                    ?>
+
+                                    <?php if ( $st_query->have_posts() ): ?>
+                                          <?php while ( $st_query->have_posts() ) : $st_query->the_post(); ?>
+                                                <div class="col-xs-12 hvr-float">
+                                                      <a href="javascript:void(0);" class="noline" ontouchstart="">
+                                                            <div class="panel panel-default phover wow fadeInUp">
+                                                                  <div class="panel-body">
+                                                                        <?php
+                                                                              $wptitle = get_the_title();
+                                                                              $wpcategory = get_the_category();
+                                                                              $wptags = get_the_tags();
+                                                                              $wpcontent = get_the_content();
+                                                                              $wpcontent = wp_strip_all_tags( $wpcontent );
+                                                                              // $wpcontent = remove_shortcode( $wpcontent );
+
+                                                                              if(mb_strlen($wptitle, 'UTF-8')>40){
+                                                                                    $wptitle = mb_substr($wptitle, 0, 40, 'UTF-8');
+                                                                                    $wptitle = $wptitle.'...';
+                                                                              }else{
+                                                                                    $wptitle = $wptitle;
+                                                                              }
+
+                                                                              if (mb_strlen($wpcontent,'UTF-8')>80) {
+                                                                                    $wpcon = mb_substr($wpcontent,0,80,'UTF-8');
+                                                                                    $wpcon = $wpcon.'...';
+                                                                              }else{
+                                                                                    $wpcon = $wpcon;
+                                                                              }
+
+                                                                              foreach ($wptags as $tmp) {
+                                                                                    $wptag = $tmp;
+                                                                              }
+                                                                        ?>
+                                                                        <div class="row">
+                                                                              <div class="col-sm-4">
+                                                                                    <img src="<?php the_post_thumbnail_url(); ?>" class="img-responsive center-block">
+                                                                              </div>
+                                                                              <div class="col-sm-8">
+                                                                                    <h5>WORK<br></h5>
+                                                                                    <h4><?php echo $wptag->name; ?>&nbsp;様</h4>
+                                                                                    <p class="gradation2"><strong><?php echo $wptitle; ?></strong></p>
+                                                                                    <p><small><?php echo $wpcon; ?></small></p>
+                                                                              </div>
+                                                                        </div>
                                                                   </div>
                                                             </div>
-                                                      </div>
+                                                      </a>
                                                 </div>
-                                          </a>
-                                    </div>
-                                    <div class="col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <div class="col-sm-4">
-                                                                        <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                                  </div>
-                                                                  <div class="col-sm-8">
-                                                                        <h5>NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                                        <h4>〇〇株式会社様</h4>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                                        tempor</p>
-                                                                  </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
-                                    <div class="col-xs-12 hvr-float">
-                                          <a href="javascript:void(0);" class="noline" ontouchstart="">
-                                                <div class="panel panel-default phover wow fadeInUp">
-                                                      <div class="panel-body">
-                                                            <div class="col-sm-4">
-                                                                        <img src="http://placehold.jp/300x160.png" class="img-responsive center-block">
-                                                                  </div>
-                                                                  <div class="col-sm-8">
-                                                                        <h5>NEWS CATEGORY<br><small>YYYY/MM/DD</small></h5>
-                                                                        <h4>〇〇株式会社様</h4>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                                        tempor</p>
-                                                                  </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </div>
+                                          <?php endwhile; ?>
+                                    <?php else: ?>
+                                    <?php endif; ?>
+                                    <?php wp_reset_query(); ?>
+
                                     <div class="col-xs-12 text-center">
-                                          <a href="javascript:void(0);" title="ニュースをもっと見る" class="btn btn-info hvr-float">すべての事例</a>
+                                          <a href="./work/work.php" title="ニュースをもっと見る" class="btn btn-info hvr-float">すべての事例</a>
                                     </div>
                               </div>
                         </div>

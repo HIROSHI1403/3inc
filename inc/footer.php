@@ -5,11 +5,11 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                   <h5>企業情報</h5>
                   <ul class="list-unstyled">
-                        <li><a href="<?php echo SRV_ROOT; ?>/company/about.php" class="hvr-icon-forward"><small>会社概要</small></a></li>
-                        <li><a href="<?php echo SRV_ROOT; ?>/company/message.php" class="hvr-icon-forward"><small>社長挨拶</small></a></li>
-                        <li><a href="<?php echo SRV_ROOT; ?>/company/philosophy.php" class="hvr-icon-forward"><small>企業理念</small></a></li>
-                        <li><a href="<?php echo SRV_ROOT; ?>/company/history.php" class="hvr-icon-forward"><small>会社沿革</small></a></li>
-                        <li><a href="<?php echo SRV_ROOT; ?>/company/base.php" class="hvr-icon-forward"><small>事業拠点</small></a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/company/about.php" class="hvr-icon-forward"><small>会社プロフィール</small></a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/company/message.php" class="hvr-icon-forward"><small>トップメッセージ</small></a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/company/philosophy.php" class="hvr-icon-forward"><small>企業ポリシー</small></a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/company/history.php" class="hvr-icon-forward"><small>ヒストリー</small></a></li>
+                        <li><a href="<?php echo SRV_ROOT; ?>/company/base.php" class="hvr-icon-forward"><small>事業拠点（アクセスマップ）</small></a></li>
                   </ul>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">

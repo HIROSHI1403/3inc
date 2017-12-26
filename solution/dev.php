@@ -17,7 +17,7 @@
 						<img src="<?php echo SRV_ROOT; ?>/img/solution/dev.jpg" class="img-responsive hoverimg top-title">
 					</div>
 					<div class="col-md-8">
-						<h1 class="top-title c-3inc">サービスプラットフォーム</h1>
+						<h1 class="top-title c-3inc">ソリューション開発</h1>
 						<p class="c-3inc-sub lead">販促ツールを、インターネット経由で簡単にご利用いただけるクラウド型サービス</p>
 						<p class="">設備や機能がパッケージ化されていることにより、資産を保有することなく、短納期・低コストで導入いただけます。拡張機能として専用のサーバやインフラ、アプリケーションなどのお客様のご要望に応じたオーダーメイド型のサービスもご提供可能ですので、お気軽にご相談ください。企画から構築・運用まで</p>
 					</div>
@@ -32,7 +32,7 @@
 
 
 				<h3 class="c-3inc margin-top-200">システム概要</h3>
-				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart_sp.png" alt="サービスプラットフォーム" class="img-responsive center-block">
+				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart_sp.png" alt="ソリューション開発" class="img-responsive center-block">
 
 			</div>
 		</section>

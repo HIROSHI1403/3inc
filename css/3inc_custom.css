@@ -75,7 +75,7 @@ a>.col-sm-10{
 
 .gradation2{
 	background: #333;
-	background:  -webkit-linear-gradient(45deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
+	background:  -webkit-linear-gradient(95deg, rgba(208,228,247,1) 0%,rgba(115,177,231,1) 24%,rgba(10,119,213,1) 50%,rgba(83,159,225,1) 79%,rgba(135,188,234,1) 100%);
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
 }
@@ -137,6 +137,10 @@ a>.col-sm-10{
 	border-color: #fff;
 }
 
+.navbar-default .navbar-toggle {
+    border: none !important;
+}
+
 /* ---------------------------------
 	panel
 ---------------------------------- */
@@ -168,6 +172,10 @@ a>.col-sm-10{
 
 .margin-top-100{
 	margin-top: 100px;
+}
+
+.margin-top-150{
+	margin-top: 150px;
 }
 
 .margin-top-200{
