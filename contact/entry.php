@@ -60,7 +60,7 @@
 						</div>
 
 						<div class="form-group">
-							<label for="tel" class="col-lg-2 control-label">新卒・中途&nbsp;<span class="label label-danger">必須</span></label>
+							<label for="tel" class="col-lg-2 control-label">新卒・キャリア&nbsp;<span class="label label-danger">必須</span></label>
 							<div class="col-lg-10">
 								<div class="radio">
 									<label>
@@ -70,8 +70,8 @@
 								</div>
 								<div class="radio">
 									<label>
-										<input type="radio" name="option" id="optionsRadios2" value="中途" required>
-										中途の方
+										<input type="radio" name="option" id="optionsRadios2" value="キャリア" required>
+										キャリアの方
 									</label>
 								</div>
 							</div>
@@ -85,13 +85,13 @@
 							</div>
 						</div>
 
-						<div class="form-group">
+						<!-- <div class="form-group">
 							<label for="chk" class="col-lg-2 control-label">同意事項&nbsp;<span class="label label-danger">必須</span></label>
 							<div class="col-lg-10">
 								<input type="checkbox" value="同意" name="agree" required>&nbsp;はい
 								<span class="help-block">当社プライバシーポリシー［<a href="<?php echo SRV_ROOT; ?>/privacy.php" target="_blank">個人情報保護方針</a>］にご同意ください。</span>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="form-group">
 							<div class="col-lg-10 col-lg-offset-2">

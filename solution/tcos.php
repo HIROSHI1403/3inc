@@ -10,52 +10,61 @@
 
 	<main>
 
+		<section class="margin-bottom-50">
+			<div class="jumbotron jumbotron-tcos">
+				<div class="container whiter sd text-center">
+					<h2 class="wow fadeInUp">クレジットカード決済端末を使った<br>顧客＆ポイント管理サービス</h2>
+					<p class="wow fadeInUp c-3inc h2">TCOSサービス</p>
+				</div>
+			</div>
+		</section>
+
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 hidden-sm hidden-xs">
+					<!-- <div class="col-md-4 hidden-sm hidden-xs">
 						<img src="<?php echo SRV_ROOT; ?>/img/solution/tcos.jpg" class="img-responsive hoverimg top-title">
+					</div> -->
+					<div class="col-md-12">
+						<!-- <h1 class="top-title c-3inc">TCOSサービス</h1>
+						<p class="c-3inc-sub lead">クレジットカード決済端末を使った顧客＆ポイント管理サービス</p> -->
+						<p class="text-center lead">「INFOX端末」、「JET-S端末」、「J-Mups端末」などのクレジットカード決済端末を、ポイント端末としてご利用いただけるサービスです。すでにカード決済端末をご利用いただいている場合、新たにポイント端末導入の必要がなく、すぐにポイントサービスが始められます。</p>
 					</div>
-					<div class="col-md-8">
-						<h1 class="top-title c-3inc">TCOS-INFOX</h1>
-						<p class="c-3inc-sub lead">カード決済端末を使ったポイントサービス</p>
-						<p class="">カード決済端末「INFOX」をポイント端末としてもご利用いただけるサービスです。すでにINFOX端末をご利用いただいている場合、新たにポイント端末導入の必要がなく、すぐにポイントサービスが始められます。</p>
-					</div>
-					<div class="col-md-4 hidden-lg hidden-md">
+					<!-- <div class="col-md-4 hidden-lg hidden-md">
 						<img src="<?php echo SRV_ROOT; ?>/img/solution/tcos.jpg" class="img-responsive hoverimg">
-					</div>
+					</div> -->
 				</div>
 			</div>
 
 			<div class="container">
 				<h1 class="c-3inc margin-top-200 text-center">DETAIL&nbsp;<small>詳細</small></h1>
 
-				<h3 class="c-3inc margin-top-200">サービス特徴</h3>
+				<h3 class="c-3inc margin-top-200">サービス特長</h3>
 			 	<div class="row">
 					<div class="col-md-12">
 						<h4 class="c-3inc-sub">端末1台で「支払い」と「ポイント付与/還元」が可能</h4>
 						<p>
-							クレジットカードやデビットカードの決済端末である「INFOX」を、ポイントカード端末としてもご利用いただけるので、支払とポイント付与/還元が1台で処理できます。ポイント専用の端末や設備をわざわざ設置する必要がなく手軽に始められます。
+							レジットカード決済端末を、ポイントカード端末としてご利用いただけるので、支払いとポイント付与/還元が1台で処理できます。ポイント専用の端末や設備を設置する手間がなく手軽に始められます。
 						</p>
 					</div>
 					<div class="col-md-12">
 						<h4 class="c-3inc-sub">管理者サイトで会員の動向把握</h4>
 						<p>
-							インターネット環境があれば、いつでも会員の来店状況、購入状況など推移がグラフで確認できます。本部・事務局、各店舗などそれぞれに与えられた権限により閲覧できる内容も制限できます。
+							いつでも会員の来店状況、購入状況などの推移がグラフで確認できます。本部・事務局、各店舗などそれぞれに与えられた権限により閲覧できる内容も制限できます。
 						</p>
 					</div>
 					<div class="col-md-12">
-						<h4 class="c-3inc-sub">その他オプションサービス（別途お見積り）</h4>
+						<h4 class="c-3inc-sub">外部サービスとの連携（オプション）</h4>
 						<p>
-							すでに運用されているECサイトや、ポイント管理サイトなどとのAPI連携も可能ですので、データ移行が簡単に行えます。
+							すでに運用されているECサイトやポイント管理サイトなどとのAPI連携も可能です。
 						</p>
 					</div>
 			 	</div>
 
 
 
-				<h3 class="c-3inc margin-top-200">システム概要</h3>
-				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart_tcos.png" alt="TCOS-INFOX" class="img-responsive center-block">
+				<!-- <h3 class="c-3inc margin-top-200">システム概要</h3>
+				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart_tcos.png" alt="TCOS-INFOX" class="img-responsive center-block"> -->
 
 
 

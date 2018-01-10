@@ -30,9 +30,9 @@
 						</div>
 
 						<div class="form-group">
-							<label for="department" class="col-lg-2 control-label">部署名&nbsp;<span class="label label-danger">必須</span></label>
+							<label for="department" class="col-lg-2 control-label">部署名</label>
 							<div class="col-lg-10">
-								<input type="text" class="form-control" id="department" name="department" placeholder="例）営業部営業課" required>
+								<input type="text" class="form-control" id="department" name="department" placeholder="例）営業部営業課">
 							</div>
 						</div>
 
@@ -65,13 +65,13 @@
 							</div>
 						</div>
 
-						<div class="form-group">
+						<!-- <div class="form-group">
 							<label for="chk" class="col-lg-2 control-label">同意事項&nbsp;<span class="label label-danger">必須</span></label>
 							<div class="col-lg-10">
 								<input type="checkbox" value="同意" name="agree" required>&nbsp;はい
 								<span class="help-block">当社プライバシーポリシー［<a href="<?php echo SRV_ROOT; ?>/privacy.php" target="_blank">個人情報保護方針</a>］にご同意ください。</span>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="form-group">
 							<div class="col-lg-10 col-lg-offset-2">

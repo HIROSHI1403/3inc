@@ -14,7 +14,7 @@
       <script src="https://use.fontawesome.com/ba25513b23.js"></script>
       <link href="<?php echo SRV_ROOT; ?>/css/slick.css" rel="stylesheet">
       <link href="<?php echo SRV_ROOT; ?>/css/slick-theme.css" rel="stylesheet">
-      <link href="<?php echo SRV_ROOT; ?>/css/smoke.min.css" rel="stylesheet">
+      <!-- <link href="<?php echo SRV_ROOT; ?>/css/smoke.min.css" rel="stylesheet"> -->
       <link href="<?php echo SRV_ROOT; ?>/css/hamburgers.min.css" rel="stylesheet">
       <link href="<?php echo SRV_ROOT; ?>/css/3inc_custom.css" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

@@ -4,34 +4,30 @@
 
 body{
 	font-family: arial, sans-serif;
-	background: url(../img/logo/trinity_bg_logo.svg);
+	/*background: url(../img/logo/trinity_bg_logo.svg);
 	background-repeat: no-repeat;
     background-size: 120% ;
-    background-position-x: center;
+    background-position-x: center;*/
 }
 
 #solution{
-	background: url(../img/logo/description.svg);
+	/*background: url(../img/logo/description.svg);
 	background-repeat: no-repeat;
     background-size: 100% ;
     background-position-y: 200px;
-    background-position-x: center;
+    background-position-x: center;*/
 }
 
 /* ---------------------------------
 	font-size
 ---------------------------------- */
-.font-xs{
-	font-size: 70%;
-}
+.font-xs{font-size: 70%;}
 
 /* ---------------------------------
 	section
 ---------------------------------- */
 
-section{
-	padding-top: 50px;
-}
+section{padding-top: 50px;}
 
 /* ---------------------------------
 	a
@@ -61,6 +57,18 @@ a>.col-sm-10{
 	box-shadow: 0 10px 16px rgba(0, 0, 0, 0.3)
 }
 
+.table a{
+	text-decoration: none;
+}
+
+/* ---------------------------------
+	p(gradation)
+---------------------------------- */
+
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+}
 
 /* ---------------------------------
 	p(gradation)
@@ -80,6 +88,9 @@ a>.col-sm-10{
 	-webkit-background-clip: text;
 }
 
+.sd{
+	text-shadow:0px 0px 5px #000000;
+}
 
 /* ---------------------------------
 	button
@@ -129,58 +140,75 @@ a>.col-sm-10{
 	width: auto;
 }
 
-.example2 .navbar-brand>img {
-  padding: 7px 15px;
-}
-
-.navbar-default{
-	border-color: #fff;
-}
-
-.navbar-default .navbar-toggle {
-    border: none !important;
-}
+.example2 .navbar-brand>img {padding: 7px 15px;}
+.navbar-default{border-color: #fff;}
+.navbar-default .navbar-toggle {border: none !important;}
 
 /* ---------------------------------
 	panel
 ---------------------------------- */
 
-.panel-default{
-	border: none !important;
-}
-
-.panel-footer{
-	border: none !important;
-}
+.panel-default{border: none !important;}
+.panel-footer{border: none !important;}
 
 /* ---------------------------------
 	h1-h6
 ---------------------------------- */
-.top-title{
-	margin-top: 150px;
-}
+.top-title{margin-top: 150px;}
 
-@media screen and (min-width: 768px){
+/*@media screen and (min-width: 768px){
 	.top-title {
 	    font-size: 72px;
 	}
-}
+}*/
 
-.margin-top-50{
-	margin-top: 50px;
-}
+.margin-top-0{margin-top: 0px;}
+.margin-top-50{margin-top: 50px;}
+.margin-top-100{margin-top: 100px;}
+.margin-top-150{margin-top: 150px;}
+.margin-top-200{margin-top: 200px;}
 
-.margin-top-100{
-	margin-top: 100px;
-}
+.margin-bottom-0{margin-bottom: 0px;}
+.margin-bottom-50{margin-bottom: 50px;}
+.margin-bottom-100{margin-bottom: 100px;}
+.margin-bottom-150{margin-bottom: 150px;}
+.margin-bottom-200{margin-bottom: 200px;}
 
-.margin-top-150{
-	margin-top: 150px;
-}
+.margin-left-0{margin-left: 0px;}
+.margin-left-50{margin-left: 50px;}
+.margin-left-100{margin-left: 100px;}
+.margin-left-150{margin-left: 150px;}
+.margin-left-200{margin-left: 200px;}
 
-.margin-top-200{
-	margin-top: 200px;
-}
+.margin-right-0{margin-right: 0px;}
+.margin-right-50{margin-right: 50px;}
+.margin-right-100{margin-right: 100px;}
+.margin-right-150{margin-right: 150px;}
+.margin-right-200{margin-right: 200px;}
+
+.padding-top-0{padding-top: 0px;}
+.padding-top-50{padding-top: 50px;}
+.padding-top-100{padding-top: 100px;}
+.padding-top-150{padding-top: 150px;}
+.padding-top-200{padding-top: 200px;}
+
+.padding-bottom-0{padding-bottom: 0px;}
+.padding-bottom-50{padding-bottom: 50px;}
+.padding-bottom-100{padding-bottom: 100px;}
+.padding-bottom-150{padding-bottom: 150px;}
+.padding-bottom-200{padding-bottom: 200px;}
+
+.padding-left-0{padding-left: 0px;}
+.padding-left-50{padding-left: 50px;}
+.padding-left-100{padding-left: 100px;}
+.padding-left-150{padding-left: 150px;}
+.padding-left-200{padding-left: 200px;}
+
+.padding-right-0{padding-right: 0px;}
+.padding-right-50{padding-right: 50px;}
+.padding-right-100{padding-right: 100px;}
+.padding-right-150{padding-right: 150px;}
+.padding-right-200{padding-right: 200px;}
 
 /* ---------------------------------
 	img
@@ -245,29 +273,18 @@ a>.col-sm-10{
 
 }
 
-#footer li{
-	padding: 2px 0 2px 0;
-}
-
-#footer .col-md-12{
-	padding-top: 100px;
-}
+#footer li{padding: 2px 0 2px 0;}
+#footer .col-md-12{padding-top: 100px;}
 
 /* ---------------------------------
 	colors
 ---------------------------------- */
 
-.c-iij{
-	color: #cc0033 !important;
-}
-
-.c-3inc{
-	color: #1e2b7f !important;
-}
-
-.c-3inc-sub{
-	color:#0c6fb2 !important;
-}
+.c-iij{color: #cc0033 !important;}
+.c-3inc{color: #1e2b7f !important;}
+.c-3inc-sub{color:#0c6fb2 !important;}
+.c-3inc-orange{color: #ED7D31 !important;}
+.c-3inc-green{color: #92D050 !important;}
 
 .btn-iij{
 	background: #cc0033 !important;
@@ -281,7 +298,7 @@ a>.col-sm-10{
 ---------------------------------- */
 
 .jumbotron-toprec{
-	background: url(../img/photos/toprec.jpg) no-repeat center bottom;
+	background: url(../img/headerimg/rec.jpg) no-repeat center bottom;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -294,4 +311,185 @@ a>.col-sm-10{
 .flex{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+
+/* ---------------------------------
+	inline-height
+---------------------------------- */
+
+.inline-h-100{line-height:100%;}
+
+/* ---------------------------------
+	menu muse over
+---------------------------------- */
+
+@media (min-width: 768px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+
+/* ---------------------------------
+	Tpoint
+---------------------------------- */
+
+#tpointhead{
+	background: url(../img/tpoint/01_bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+.jumbotron-tpoint{
+	background: url(../img/tpoint/tpointbg.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: top;
+}
+
+.jumbotron-iijgiopos{
+	background: url(../img/iijgiopos/iijgiopostop.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: bottom;
+}
+
+.jumbotron-reginavi{
+	background: url(../img/reginavi/top.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position-y: middle;
+}
+
+.jumbotron-concept{
+	background: url(../img/headerimg/concept.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-solution{
+	background: url(../img/headerimg/solution.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-tcos{
+	background: url(../img/headerimg/tcos.jpeg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-pocketta{
+	background: url(../img/headerimg/pocketta.jpg) no-repeat center top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-vps{
+	background: url(../img/headerimg/vps.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-dev{
+	background: url(../img/headerimg/dev.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-company{
+	background: url(../img/headerimg/comp.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-access{
+	background: url(../img/headerimg/access.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-news{
+	background: url(../img/headerimg/news.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-work{
+	background: url(../img/headerimg/work.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-rec{
+	background: url(../img/headerimg/rec.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.jumbotron-contact{
+	background: url(../img/headerimg/contact.jpg) no-repeat center bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.whiter{color: white !important}
+
+.noborder{border:none !important;}
+.list-group-item.tpoint{
+	background: #deebf7 !important;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.list-group-item.tpoint-none{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.list-group-item.tpoint-top{background: #002060 !important;}
+
+
+/* ---------------------------------
+	jumbotron
+---------------------------------- */
+
+@media screen and (min-width: 768px){
+	.jumbotron {
+	    padding-top:100px;
+	    padding-bottom: 100px;
+	}
 }

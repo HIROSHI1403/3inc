@@ -7,13 +7,23 @@
       <body>
             <?php include('/var/www/html/3inc-stage1/inc/navbar.php'); ?>
             <main>
-                  <div class="container">
-                        <div class="page-header text-center">
-                              <h1 class="top-title c-3inc">WORK<br><small>導入事例</small></h1>
+
+                  <section class="margin-bottom-50">
+                        <div class="jumbotron jumbotron-work">
+                              <div class="container whiter sd text-center">
+                                    <h2 class="wow fadeInUp">Work</h2>
+                                    <p class="wow fadeInUp">導入事例</p>
+                              </div>
                         </div>
+                  </section>
+
+                  <div class="container">
+                        <!-- <div class="page-header text-center">
+                              <h1 class="top-title c-3inc">WORK<br><small>導入事例</small></h1>
+                        </div> -->
                         <div class="row">
-                              <div class="col-md-8 col-md-offset-2">
-                                    <p class="text-center c-3inc-sub">
+                              <div class="col-md-12">
+                                    <p class="text-center lead c-3inc-sub">
                                           ポイントサービスのパイオニアとして、当社は2000年以降これまで数多くのお客様にサービスを提供してきました。その実績やノウハウ、経験を活かしつつ、250社以上の導入実績と、1000万人以上の会員情報をお預かりしています。飲食・アパレル・小売・ホテル・商業施設など幅広い業種・業態に対応しています。
                                     </p>
                               </div>

@@ -10,10 +10,20 @@
 
 	<main>
 
-		<div class="container">
-			<div class="page-header text-center">
-				<h1 class="top-title c-3inc">CONCEPT<br><small>事業コンセプト</small></h1>
+		<section class="margin-bottom-50">
+			<div class="jumbotron jumbotron-concept">
+				<div class="container whiter sd text-center">
+					<h2 class="wow fadeInUp">Concept</h2>
+					<p class="wow fadeInUp">事業コンセプト</p>
+				</div>
 			</div>
+		</section>
+
+
+		<div class="container">
+			<!-- <div class="page-header text-center">
+				<h1 class="top-title c-3inc">CONCEPT<br><small>事業コンセプト</small></h1>
+			</div> -->
 
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">

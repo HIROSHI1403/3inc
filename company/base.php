@@ -9,12 +9,22 @@
 	<?php include('/var/www/html/3inc-stage1/inc/navbar.php'); ?>
 
 	<main>
+
+		<section class="margin-bottom-50">
+              <div class="jumbotron jumbotron-access">
+                    <div class="container whiter sd text-center">
+                          <h2 class="wow fadeInUp">Access</h2>
+                          <p class="wow fadeInUp">事業拠点</p>
+                    </div>
+              </div>
+        </section>
+
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<!-- <div class="col-md-12 text-center">
 						<h1 class="top-title c-3inc">事業拠点</h1>
-					</div>
+					</div> -->
 					<div class="col-md-12">
 						<p class="text-center">当社は東京本社・大阪営業所・九州営業所・技術開発本部の4事業所で事業推進しております。</p>
 					</div>

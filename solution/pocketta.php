@@ -10,58 +10,64 @@
 
 	<main>
 
+		<section class="margin-bottom-50">
+			<div class="jumbotron jumbotron-pocketta">
+				<div class="container whiter sd text-center">
+					<h2 class="wow fadeInUp">ポイント管理から会員管理、<br>利用実績の分析をトータル支援</h2>
+					<p class="wow fadeInUp c-3inc-orange h2">POCKETTAサービス</p>
+				</div>
+			</div>
+		</section>
+
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 hidden-sm hidden-xs">
-						<img src="<?php echo SRV_ROOT; ?>/img/solution/poketta.jpg" class="img-responsive hoverimg top-title">
+					<!-- <div class="col-md-4 hidden-sm hidden-xs">
+						<img src="<?php echo SRV_ROOT; ?>/img/solution/pocketta.jpg" class="img-responsive hoverimg top-title">
+					</div> -->
+					<div class="col-md-12">
+						<!-- <h1 class="top-title c-3inc">pockettaサービス</h1>
+						<p class="c-3inc-sub lead">ポイント管理から会員管理、利用実績の分析をトータル支援</p> -->
+						<p class="text-center lead">「ポイント管理」「会員管理」「店舗管理」「会員向けサイト」「販促機能」など、顧客管理に必要な機能がひとつになったサービスです。端末の提供や運営後のサポートもトータルで支援いたします。</p>
 					</div>
-					<div class="col-md-8">
-						<h1 class="top-title c-3inc">POKETTA</h1>
-						<p class="c-3inc-sub lead">ポイントからサイネージまでのトータル販促</p>
-						<p class="">トリニティが自社開発した「POKETTA端末」とおサイフケータイを活用したトータル販促サービスです。メール配信からクーポン、店頭でのサイネージ広告、おサイフケータイを活用したモバイル販促、携帯サイトのCMS機能など幅広く提供しています。</p>
-					</div>
-					<div class="col-md-4 hidden-lg hidden-md">
-						<img src="<?php echo SRV_ROOT; ?>/img/solution/poketta.jpg" class="img-responsive hoverimg">
-					</div>
+					<!-- <div class="col-md-4 hidden-lg hidden-md">
+						<img src="<?php echo SRV_ROOT; ?>/img/solution/pocketta.jpg" class="img-responsive hoverimg">
+					</div> -->
 				</div>
 			</div>
 
 			<div class="container">
 				<h1 class="c-3inc margin-top-200 text-center">DETAIL&nbsp;<small>詳細</small></h1>
 
-				<h3 class="c-3inc margin-top-200">サービス特徴</h3>
+				<h3 class="c-3inc margin-top-200">サービス特長</h3>
 			 	<div class="row">
 					<div class="col-md-3">
-						<h4 class="c-3inc-sub">持ち運び自由な端末</h4>
+						<h4 class="c-3inc-sub">「アンケート」や「クーポン」機能などを標準でご用意</h4>
 						<p>
-							3G回線なので、インターネットがない場所でも電源さえあればどこでも自由に置けます。簡単に持ち運べるので、店頭設置はもとよりイベント会場などでもご利用いただけます。
+							アンケートの集計やクーポンなどの利用率を、表やグラフで簡単に確認できます。
 						</p>
 					</div>
 					<div class="col-md-3">
-						<h4 class="c-3inc-sub">ポイントカード発行不要</h4>
+						<h4 class="c-3inc-sub">簡単に始められる「会員サイト」</h4>
 						<p>
-							お客様がすでにお持ちの携帯電話やICカードが会員証の代わりなるので、ポイントカード発行の手間や費用がかかりません。
+							テンプレートにお店のロゴや画像を当てはめるだけで、会員サイトがすぐに開始できます。
+						</p>
+						<p>
+							お店のWebサイトやブログ、SNSにも誘導可能です。
 						</p>
 					</div>
 					<div class="col-md-3">
-						<h4 class="c-3inc-sub">集計・解析から携帯CMSなど充実した管理サイト</h4>
+						<h4 class="c-3inc-sub">スマホや交通系ICカードなども会員証の代わりに</h4>
 						<p>
-							管理者用サイトでは、集計・解析された顧客データを確認できるほか、携帯会員サイトのデザインや各種設定を簡単に行えるCMS機能も備えています。
-						</p>
-					</div>
-					<div class="col-md-3">
-						<h4 class="c-3inc-sub">その他カスタマイズの一例（別途お見積り）</h4>
-						<p>
-							POS端末との連動や、イベント会場でのメルマガ会員登録やスタンプ・ルーレット端末として、またFacebookと連動したリアルいいね！の実現などさまざまなカスタマイズも可能です。
+							お客様がすでにお持ちのスマホや交通系ICカードなども会員証の代わりなるので、ポイントカード発行の手間や費用がかかりません。もちろん、オリジナルカードの制作もデザインから印刷までご相談いただけます。
 						</p>
 					</div>
 			 	</div>
 
 
 
-				<h3 class="c-3inc margin-top-200">システム概要</h3>
-				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart.png" alt="POKETTA ポイントからサイネージまでのトータル販促" class="img-responsive center-block">
+				<!-- <h3 class="c-3inc margin-top-200">システム概要</h3>
+				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart.png" alt="pocketta ポイントからサイネージまでのトータル販促" class="img-responsive center-block"> -->
 
 
 

@@ -9,12 +9,22 @@
 	<?php include('/var/www/html/3inc-stage1/inc/navbar.php'); ?>
 
 	<main>
+
+		<section class="margin-bottom-50">
+              <div class="jumbotron jumbotron-company">
+                    <div class="container whiter sd text-center">
+                          <h2 class="wow fadeInUp">Top Message</h2>
+                          <p class="wow fadeInUp">社長あいさつ</p>
+                    </div>
+              </div>
+        </section>
+
 		<section>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 text-center">
+					<!-- <div class="col-md-12 text-center">
 						<h1 class="top-title c-3inc">社長挨拶</h1>
-					</div>
+					</div> -->
 					<div class="col-md-12">
 						<div class="page-header">
 							<h2 class="c-3inc-sub">お客様をロイヤルカスタマーに</h2>

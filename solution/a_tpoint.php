@@ -10,142 +10,141 @@
 
 	<main>
 
-		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 hidden-sm hidden-xs">
-						<img src="<?php echo SRV_ROOT; ?>/img/solution/vps.jpg" class="img-responsive hoverimg top-title">
-					</div>
-					<div class="col-md-8">
-						<h1 class="top-title c-3inc">Value Platform Service(VPS)</h1>
-						<p class="c-3inc-sub lead">大型商業施設向け会員管理サービス</p>
-						<p class="">ショッピングモールをはじめとする大型商業施設や、ディベロッパーに最適な、ポイント販促を活用した会員管理サービスです。大規模な会員管理・会員販促をはじめ、複数の施設やテナントを一元管理できるほか、様々な種類の端末を接続できるので用途に応じた効果的な販促活動が可能になります。</p>
-					</div>
-					<div class="col-md-4 hidden-lg hidden-md">
-						<img src="<?php echo SRV_ROOT; ?>/img/solution/vps.jpg" class="img-responsive hoverimg">
-					</div>
-				</div>
-			</div>
-
-			<div class="container">
-				<h1 class="c-3inc margin-top-200 text-center">DETAIL&nbsp;<small>詳細</small></h1>
-
-				<h3 class="c-3inc margin-top-200">サービス特徴</h3>
-			 	<div class="row">
-					<div class="col-md-4">
-						<h4 class="c-3inc-sub">いろいろな端末が自由につながる</h4>
-						<p>
-							通常のポイント端末やクレジット端末のほかに、テナント内のPOS端末や、映画館や劇場などに設置されている発券機など施設内にあるいろいろな端末につなぐことができます。
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h4 class="c-3inc-sub">会員の動向分析や売上集計データ</h4>
-						<p>
-							施設別、日別、地区や性別・年齢などの会員属性別などさまざまなパターンの情報を抽出することがでるため、キャンペーンやイベントなどの施策に役立てられます。また、日次・月次売上データの自動生成により報告書作成の手間が省けます。
-						</p>
-					</div>
-					<div class="col-md-4">
-						<h4 class="c-3inc-sub">特定の会員に向けた効果的な販促</h4>
-						<p>
-							購買履歴や会員属性など条件を設定してデータを抽出し、ターゲットに合わせたダイレクトメールやクーポン配信など最適な販促活動をサポートします。また、「ゴールド会員」などの優良会員を差別化したサービス提供も実現できます。
-						</p>
-					</div>
-			 	</div>
-
-
-
-				<h3 class="c-3inc margin-top-200">システム概要</h3>
-				<img src="<?php echo SRV_ROOT; ?>/img/solution/chart_vps.png" alt="VPS" class="img-responsive center-block">
-
-
-
-				<h3 class="c-3inc margin-top-200">サービス詳細</h3>
-				<div class="row">
-					<div class="col-md-6">
-						<h4 class="c-3inc-sub margin-top-50">サービスの種類</h4>
-						<p>
-							ASP
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">端末</h4>
-						<p>
-							INFOX端末（ポイント機能付き）、JET-S端末、ポイント端末、KIOSK端末、POS端末など
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">端末メーカー</h4>
-						<p>
-							パナソニック株式会社、東芝テック株式会社、日本NCR株式会社、NECインフロンティア株式会社
-						</p>
-					</div>
-					<div class="col-md-6">
-						<h4 class="c-3inc-sub margin-top-50">端末接続方式</h4>
-						<p>
-							電話回線［アナログ/ISDN-B/ISDN-D］、LAN
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">カードの種類</h4>
-						<p>
-							磁気カード［クレジット提携カード/現金ポイントカード］
-						</p>
-					</div>
-				</div>
-
-
-				<h3 class="c-3inc margin-top-200">業務系機能一覧</h3>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="c-3inc-sub margin-top-50">会員管理機能</h4>
-						<p>
-							会員マスタメンテナンス、ポイント処理、カード管理を行います。
-						</p>
-						<p>
-							会員検索・会員登録/変更・カード紐付け・ポイント移行・取引履歴・ポイント付与/取消 ・ポイント操作履歴・カードマスタ読込み・カード発番
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">組織/端末管理機能</h4>
-						<p>
-							店舗マスタ、端末マスタのメンテナンスを行います。
-						</p>
-
-						<p>
-							店舗検索/登録・端末検索/登録・KIOSK端末検索/メッセージ変更
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">ポイント倍率変更機能</h4>
-						<p>
-							ポイント付与条件マスタのメンテナンスを行います。
-						</p>
-
-						<p>
-							ポイント倍率検索/登録
-						</p>
-					</div>
-				</div>
-
-
-
-				<h3 class="c-3inc margin-top-200">その他の機能一覧</h3>
-				<div class="row">
-					<div class="col-md-12">
-						<h4 class="c-3inc-sub margin-top-50">利用者管理機能</h4>
-						<p>
-							管理Webの利用者の登録、変更を行います。また、ログ関係の表示を行います。
-						</p>
-						<p>
-							利用者登録/検索・パスワード変更・権限/セキュリティ設定・操作ログ・KIOSK操作ログ
-						</p>
-
-						<h4 class="c-3inc-sub margin-top-50">外部連携機能</h4>
-						<p>
-							他システムからのマスタ、履歴/実積情報を連携します。
-						</p>
-						<p>
-							会員マスタ連携、ポイント履歴連携、会員Web連携、BIツール連携
-						</p>
-					</div>
+		<section class="">
+			<div class="jumbotron jumbotron-tpoint">
+				<div class="container whiter sd">
+					<h3 class="wow fadeInUp">Tポイントサービス</h3>
+					<p class="wow fadeInUp">あなたのお店でTポイントが貯まります、使えます</p>
 				</div>
 			</div>
 		</section>
+
+		<div class="container margin-bottom-200">
+			<div class="text-center">
+				<h1 class="top-title h3 c-3inc">Tポイントとは</h1>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2 hidden-sm hidden-xs">
+					<img src="<?php echo SRV_ROOT; ?>/img/tpoint/logo_tpoint.svg" class="img-responsive">
+				</div>
+				<div class="col-md-10">
+					<p class="lead">Tポイントとは、TSUTAYAやファミリーマートをはじめ、全国の提携先で貯めたり、使ったり、交換できる共通ポイントです。</p>
+					<p class="lead">年間のTカードご利用者は、なんと6,300万人以上。提携店は67万店以上。国民2人に1人以上が利用しているTポイントが、お店の集客・売上UPに貢献します。</p>
+					<p class="pull-right text-muted"><small>※利用者数/提携店数は2017年5月現在</small></p>
+				</div>
+				<div class="col-md-2 hidden-lg hidden-md">
+					<img src="<?php echo SRV_ROOT; ?>/img/solution/credit.jpg" class="img-responsive hoverimg">
+				</div>
+			</div>
+		</div>
+
+		<ul class="list-group">
+			<li class="list-group-item noborder active tpoint-top">
+				<h3 class="text-center">Tポイント提携店のメリット</h3>
+			</li>
+			<li class="list-group-item tpoint noborder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="c-3inc">１．新規顧客の集客</h3>
+							<p class="lead">2人に1人が持っているTカード。Tポイントが貯まるお店と分かれば、来店のきっかけになります。のぼりやステッカー、ポスターなどスタートキットは初回無料配布です。</p>
+						</div>
+						<div class="col-md-6">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/startkit.png" alt="" class="img-responsive center-block">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="list-group-item tpoint-none noborder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-md-push-6">
+							<h3 class="c-3inc">２．リピート促進</h3>
+							<p class="lead">来店回数や、お買上金額に応じて会員ランクを設定することができます。ランクに応じて、レシートクーポンの内容を変えることで、ターゲットに合わせたアプローチが可能です。</p>
+						</div>
+						<div class="col-md-6 col-md-pull-6">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/couponrank.png" alt="" class="img-responsive center-block">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="list-group-item tpoint noborder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="c-3inc">３．次の戦略のために</h3>
+							<p class="lead">毎月届く「分析レポート」を次の戦略に役立てられます。分析レポートには、来店頻度・回数、客層、客単価、商圏分析、Tカード利用状況などがあります。</p>
+						</div>
+						<div class="col-md-6">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/map.png" alt="" class="img-responsive center-block">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="list-group-item noborder active tpoint-top">
+				<h3 class="text-center">Tポイント専用端末</h3>
+			</li>
+			<li class="list-group-item tpoint noborder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="c-3inc">Tポイント専用端末（T-UNIT２）</h3>
+							<p class="lead">端末１台で、簡単にTポイント付与・利用を行うことできます。</p>
+							<p class="lead">＜特長＞</p>
+							<ul>
+								<li class="lead">安定通信のLAN回線</li>
+								<li class="lead">レシートオートカッター</li>
+								<li class="lead">大型液晶（4.3型カラーTFT液晶）</li>
+								<li class="lead">タッチパネル方式</li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/tuni1.png" alt="" class="img-responsive center-block">
+						</div>
+						<div class="col-md-3">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/tuni2.png" alt="" class="img-responsive center-block">
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="list-group-item tpoint-none noborder">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<h3 class="c-3inc">Tポイント券売機</h3>
+							<p class="lead">券売機を利用されている飲食店や、各種施設の企業さまからの要望により、T ポイントサービスが利用できる券売機が実現しました。</p>
+							<p class="lead">＜メリット＞</p>
+							<ul>
+								<li class="lead"><strong>集客力UP</strong>
+									<p>
+										T カードを利用している人は、日本人の2 人に1 人。あなたのお店へも来店するきっかけになります。
+									</p>
+								</li>
+								<li class="lead"><strong>ポイント販促が簡単</strong>
+									<p>
+										チケット購入の際、お客様ご自身でポイント付与・利用の操作を簡単に行えるため、従業員に負担をかけずポイント販促をご利用いただけます。
+									</p>
+								</li>
+								<li class="lead"><strong>人件費削減</strong>
+									<p>
+										券売機を導入することで、レジやホール対応のために人を雇う必要がなくなり、人件費削減が期待できます。飲食業界など、人材確保が難しい業界にもおすすめです。
+									</p>
+								</li>
+								<li class="lead"><strong>オペレーションミスの抑制</strong>
+									<p>
+										券売機で注文・支払いを行なうため、計算ミスや釣り銭間違いがなくなります。従業員の聞き間違いによるお客様とのトラブル防止にもお役立ちいただけます。
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<img src="<?php echo SRV_ROOT; ?>/img/tpoint/S_118.png" alt="" class="img-responsive center-block">
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
 
 		<?php include('/var/www/html/3inc-stage1/inc/footer.php'); ?>
 	</main>

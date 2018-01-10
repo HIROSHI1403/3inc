@@ -65,7 +65,7 @@
 
 
 
-				<h3 class="c-3inc margin-top-200">サービスの特徴</h3>
+				<h3 class="c-3inc margin-top-200">サービスの特長</h3>
 				<h4 class="c-3inc-sub margin-top-50">複数店舗の売上を効率的に管理<br><small><span class="label label-success">パッケージ型</span></small></h4>
 				<p>
 					INFOX端末の取引データを集計し、一括して加盟店本部へ提供しているため、端末からの集計漏れを防ぎます。

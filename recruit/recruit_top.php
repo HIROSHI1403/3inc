@@ -10,15 +10,27 @@
 
 	<main>
 
-		<div class="container">
-			<div class="page-header text-center">
-				<h1 class="top-title c-3inc">RECRUIT<br><small>採用情報</small></h1>
+		<section class="margin-bottom-50">
+			<div class="jumbotron jumbotron-rec">
+				<div class="container whiter sd text-center">
+					<h2 class="wow fadeInUp">Recruit</h2>
+					<p class="wow fadeInUp">採用情報</p>
+				</div>
 			</div>
+		</section>
+
+		<div class="container">
+			<!-- <div class="page-header text-center">
+				<h1 class="top-title c-3inc">RECRUIT<br><small>採用情報</small></h1>
+			</div> -->
 
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
+					<p class="text-center">
+						<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow flash btn-lg btn-iij" data-wow-delay="0.1s">ENTRY</a>
+					</p>
 					<p class="lead text-center c-3inc-sub">
-						当社では事業拡大のため、新卒・中途採用を行っております。ぜひエントリーください！
+						当社では事業拡大のため、新卒・キャリア採用を行っております。ぜひエントリーください！
 					</p>
 				</div>
 			</div>
@@ -27,7 +39,7 @@
 				<h4 class="c-3inc">新卒採用募集要項</h4>
 			</div>
 			<div class="table-responsive">
-				<table class="table table-bordered table-hover">
+				<table class="table table-hover">
 					<tbody>
 						<tr>
 							<th class="c-3inc-sub" nowrap>募集</th>
@@ -90,9 +102,9 @@
 							<td>株式会社トリニティ　管理課採用担当</td>
 						</tr>
 						<tr>
-							<th class="c-3inc">エントリー</th>
-							<td>
-								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.1s">ENTRY</a>
+							<th class="c-3inc"></th>
+							<td class="text-center">
+								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-lg btn-iij" data-wow-delay="0.1s">ENTRY</a>
 							</td>
 						</tr>
 					</tbody>
@@ -100,10 +112,10 @@
 			</div>
 
 			<div class="page-header">
-				<h4 class="c-3inc">中途採用募集要項</h4>
+				<h4 class="c-3inc">キャリア採用募集要項</h4>
 			</div>
 			<div class="table-responsive">
-				<table class="table table-bordered table-hover">
+				<table class="table table-hover">
 					<tbody>
 						<tr>
 							<th class="c-3inc-sub" nowrap>募集</th>
@@ -162,9 +174,9 @@
 							<td>株式会社トリニティ　管理課採用担当</td>
 						</tr>
 						<tr>
-							<th class="c-3inc">エントリー</th>
-							<td>
-								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-iij" data-wow-delay="0.1s">ENTRY</a>
+							<th class="c-3inc"></th>
+							<td class="text-center">
+								<a href="<?php echo SRV_ROOT; ?>/contact/notice.php" class="hvr-underline-reveal wow fadeIn btn-lg btn-iij" data-wow-delay="0.1s">ENTRY</a>
 							</td>
 						</tr>
 					</tbody>
